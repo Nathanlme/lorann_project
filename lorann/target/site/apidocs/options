@@ -1,0 +1,24 @@
+-classpath
+'C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/showboard/target/classes;C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/contract/target/classes;C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/controller/target/classes;C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/model/target/classes;C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/view/target/classes;C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/main/target/classes;C:/Users/Cedric navet pc/.m2/repository/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar'
+-encoding
+'Cp1252'
+-protected
+-sourcepath
+'C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/showboard/src/main/java;C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/showboard/target/generated-sources/annotations;C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/contract/src/main/java;C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/contract/target/generated-sources/annotations;C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/controller/src/main/java;C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/controller/target/generated-sources/annotations;C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/model/src/main/java;C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/model/target/generated-sources/annotations;C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/view/src/main/java;C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/view/target/generated-sources/annotations;C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/main/src/main/java;C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/main/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2018. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'lorann 0.0.1-SNAPSHOT API'
+-linkoffline
+'http://docs.oracle.com/javase/8/docs/api' 'C:/Users/Cedric navet pc/Desktop/Mes Devoirs/Projet java/Lorann/Lorann/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'lorann 0.0.1-SNAPSHOT API'
