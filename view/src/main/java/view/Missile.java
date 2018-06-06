@@ -31,7 +31,7 @@ public class Missile extends Sprite {
      * 		the direction		
      */
 	    public Missile(int x, int y, int direction) {
-	        super(x, y,"C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\erasor.gif");
+	        super(x, y,"sprite/erasor.gif");
 	        initMissile();
 	    }
 
@@ -42,7 +42,7 @@ public class Missile extends Sprite {
 	    
 	    private void initMissile() {
 
-	        loadImage("C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\erasor.gif");
+	        loadImage("sprite/erasor.gif");
 	        getImageDimensions();
 	    }
 
