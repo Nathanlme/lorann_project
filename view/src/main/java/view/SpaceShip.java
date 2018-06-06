@@ -35,7 +35,7 @@ public class SpaceShip extends Sprite {
 	 * 		the y
 	 */
     public SpaceShip(int x, int y) {
-        super(x, y,"C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\fireball_3.png");
+        super(x, y,"sprite/fireball_3.png");
         int valeur=Help();
         loadImage(valeur);
         initSpaceShip();
@@ -60,23 +60,23 @@ public class SpaceShip extends Sprite {
     public void loadImage(int valeur) {
 
         if(valeur==1) {
-            ImageIcon ii = new ImageIcon("C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\lorann_r.png");
+            ImageIcon ii = new ImageIcon("sprite/lorann_r.png");
             image = ii.getImage();
         }
         if(valeur==2) {
-            ImageIcon ii = new ImageIcon("C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\lorann_l.png");
+            ImageIcon ii = new ImageIcon("sprite/lorann_l.png");
             image = ii.getImage();
         }
         if(valeur==3) {
-            ImageIcon ii = new ImageIcon("C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\lorann_u.png");
+            ImageIcon ii = new ImageIcon("sprite/lorann_u.png");
             image = ii.getImage();
         }
         if(valeur==4) {
-            ImageIcon ii = new ImageIcon("C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\lorann_b.png");
+            ImageIcon ii = new ImageIcon("sprite/lorann_b.png");
             image = ii.getImage();
         }
         if(valeur==5) {
-            ImageIcon ii = new ImageIcon("C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\lorann_br.png");
+            ImageIcon ii = new ImageIcon("sprite/lorann_br.png");
             image = ii.getImage();
         }
     }
