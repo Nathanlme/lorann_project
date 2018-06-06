@@ -103,23 +103,23 @@ public class Board extends JPanel implements ActionListener {
     /** The crystal */
     private Sprite crystal; 
     /** The url_bone */
-    private String url_bone = "C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\bone.png";
+    private String url_bone = "sprite/bone.png";
     /** The url_crystal*/
-    private String url_crystal = "C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\crystal_ball.png";
+    private String url_crystal = "sprite/crystal_ball.png";
     /** The url_gate */
-    private String url_gate = "C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\gate_closed.png";
+    private String url_gate = "sprite/gate_closed.png";
     /** The url_h_bone */
-    private String url_h_bone = "C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\horizontal_bone.png";
+    private String url_h_bone = "sprite/horizontal_bone.png";
     /** The url_v_bone */
-    private String url_v_bone = "C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\vertical_bone.png";
+    private String url_v_bone = "sprite/vertical_bone.png";
     /** The url_monstre */
-    private String url_monstre = "C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\monster_1.png";
+    private String url_monstre = "sprite/monster_1.png";
     /** The url_gold */
-    private String url_gold = "C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\purse.png";
+    private String url_gold = "sprite/purse.png";
     /** The tick */   
     private int tick=0;
     /** The url_gate_open */
-    private String url_gate_open = "C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\gate_open.png";
+    private String url_gate_open = "sprite/gate_open.png";
     
     
     /**
@@ -148,14 +148,14 @@ public class Board extends JPanel implements ActionListener {
         setFocusable(true);
         setBackground(Color.BLACK);
         setDoubleBuffered(true);
-        File Clap = new File("C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\Clint Eastwood [8 Bit Cover Tribute to Gorillaz] - 8 Bit Universe.wav");
+        File Clap = new File("sprite/Heart of Courage - Two Steps From Hell 8-Bit.wav");
         PlaySound(Clap);
         
         ajoutliste(codeMap);
         //spaceShip = new SpaceShip(ICRAFT_X, ICRAFT_Y);
         System.out.println(spaceShip.x);
-        gameover = new gamestate(0,0,"C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\gameover.png");
-        gamewin = new gamestate(0,0,"C:\\Users\\Cedric navet pc\\Desktop\\Mes Devoirs\\Projet java\\sprite\\gamewin.png");
+        gameover = new gamestate(0,0,"sprite/gameover.png");
+        gamewin = new gamestate(0,0,"sprite/gamewin.png");
         timer = new Timer(DELAY, this);
         timer.start();
         
@@ -489,7 +489,7 @@ private void updateMissiles() {
                 	 if(miss.intersects(monsters1)) {
                 		 monsters.x=-400;
                 		 monsters.y=-400;
-                		 System.out.println("touchééé");
+                		 System.out.println("touchÃ©Ã©Ã©");
                 	 }
                 }     
             }    
